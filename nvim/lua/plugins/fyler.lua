@@ -56,7 +56,7 @@ return {
       -- Key mappings
       mappings = {
         ["q"] = "CloseView",
-        ["="] = "CloseView",
+        ["_"] = "CloseView",
         ["<Esc>"] = "CloseView",
         ["<CR>"] = "Select",
         ["<C-t>"] = "SelectTab",

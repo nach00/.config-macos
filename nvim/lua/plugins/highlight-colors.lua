@@ -1,3 +1,7 @@
+if true then
+  return {}
+end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 return {
   "brenoprata10/nvim-highlight-colors",
 
@@ -74,7 +78,8 @@ return {
       -- Exclude buffer from highlighting e.g. 'exclude_buffer = function(bufnr) return vim.fn.getfsize(vim.api.nvim_buf_get_name(bufnr)) > 1000000 end'
       exclude_buffer = function(bufnr) end,
     })
-    require("blink.cmp").setup({
+    require("nvim-ix").setup({
+      -- require("blink.cmp").setup({
       completion = {
         menu = {
           draw = {

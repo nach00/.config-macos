@@ -1,20 +1,8 @@
 config-file = ~/.config/ghostty/colors
 config-file = ~/.config/ghostty/keybinds
 config-file = ~/.config/ghostty/fonts
-# theme = "/Users/jazz/.config/ghostty/tokyonight/tokyonight_night"
 theme = cyberdream
 
-# adjust-cell-height = 10%
-# command = ~/.config/zellij/smart-zellij.sh
-# initial-command = ~/.config/zellij/smart-zellij.sh
-# initial-command = /bin/zsh -c "zellij setup --generate-auto-start zsh"
-# initial-command = /bin/zsh -c "zellij attach -c main"
-# command = /bin/zsh
-# initial-command = /bin/zsh -c 'sessions=$(zellij list-sessions 2>/dev/null | grep -v "EXITED" | wc -l); case $sessions in 0) zellij attach -c primary ;; 1) zellij attach -c secondary ;; *) exec zsh ;; esac'
-# command = /bin/zsh
-# initial-command = /bin/zsh -c 'if [ $($HOME/.cargo/bin/zellij list-sessions 2>/dev/null | grep -v "EXITED" | wc -l) -eq 0 ]; then $HOME/.cargo/bin/zellij -s main; fi'
-# eval "$(zellij setup --generate-auto-start zsh)"
-# initial-command = zellij setup --generate-auto-start zsh
 command = /bin/zsh
 initial-command = /Users/jazz/.cargo/bin/zellij attach -c main
 initial-window = false
@@ -47,10 +35,6 @@ abnormal-command-exit-runtime = 250
 scrollback-limit = 10000000
 link-url = true
 fullscreen = false
-
-# adjust-cursor-thickness = 300%
-# adjust-cell-width = -5%
-
 
 # custom-shader = ./shaders/animated-gradient-shader.glsl
 # custom-shader = ./shaders/retro-terminal.glsl
